@@ -11,8 +11,32 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <p>ecco un paragrafo</p>
+    <div class="countainer">	
+    
+    
+    	<form>
+  			<div class="form-group">
+    			<label for="Nome">Nome</label>
+    			<input type="nome" class="form-control" id="Nome" 	aria-describedby="emailHelp" placeholder="Inserisci il tuo nome">
+    		</div>
+			
+			
+			<div class="form-group">
+    			<label for="Cognome">Cognome</label>
+    			<input type="text" class="form-control" id="Cognome" 	aria-describedby="emailHelp" placeholder="Inserisci il tuo cognome">
+    		</div>
+
+  			<div class="form-group">
+    			<label for="Indirizzo">Indirizzo</label>
+    			<input type="text" class="form-control" id="indirizzo" rows="5"> 
+    			</textarea>
+    		</div>
+
+
+  			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>	
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
